@@ -7,19 +7,11 @@
     "start": "node .",
     "dev": "nodemon ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/machadofguilherme/quoran-api.git"
-  },
   "keywords": [
     "nodejs"
   ],
   "author": "Guilherme Machado<machadofguilherme@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/machadofguilherme/quoran-api/issues"
-  },
-  "homepage": "https://github.com/machadofguilherme/quoran-api#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2"
