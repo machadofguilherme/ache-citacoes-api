@@ -10,8 +10,8 @@ const app = express();
 app.use(cors());
 app.use(express());
 app.use(bodyParser.json());
-app.use('/api', quoteRoute);
-app.use('/api', authorRoute);
+app.use(quoteRoute);
+app.use(authorRoute);
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => console.log('Rodando...'));
