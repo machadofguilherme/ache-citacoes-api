@@ -2,8 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser'); 
 const cors = require('cors');
 
-const { quoteRoute } = require('./routes/quote');
-const { authorRoute } = require('./routes/author');
+const { authorRoute } = require('./src/routes/author');
+const { quoteRoute } = require('./src/routes/quote');
 
 const app = express();
 
