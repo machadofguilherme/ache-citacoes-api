@@ -1,6 +1,6 @@
 const quoteRoute = require('express').Router();
 
-const { quoteModel } = require('../models/index');
+const { quoteModel } = require('../models');
 
 quoteRoute.get('/', async (_req, res) => {
   const find = await quoteModel.getQuote();
@@ -8,5 +8,5 @@ quoteRoute.get('/', async (_req, res) => {
 });
 
 module.exports = {
-  quoteRoute,
+  quoteRoute
 }
