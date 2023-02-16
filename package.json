@@ -10,7 +10,7 @@
   "keywords": [
     "nodejs"
   ],
-  "author": "Guilherme Machado<machadofguilherme@gmail.com>",
+  "author": "Guilherme Machado<machadofguilherme@proton.me>",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
